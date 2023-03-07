@@ -1,17 +1,12 @@
+import re
+
+
 def remove_vowel(text):
-    result = ""
-
-    # TODO
-
-    return result
+    return re.sub("[aeiouAEIOU]", "", text)
 
 
 def replace_vowel(text):
-    result = ""
-
-    # TODO
-
-    return result
+    return re.sub("[aeiouAEIOU]", "_", text)
 
 
 text = "Es gibt viel zu entdecken!"
