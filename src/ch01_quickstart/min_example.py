@@ -11,14 +11,8 @@ def min_of_3(x, y, z):
             return z
 
 
-# print(min_of_3(7, 2, 1))
-
-
 def min_of_3(x, y, z):
     return min(x, min(y, z))
-
-
-# print(min_of_3(7, 2, 1))
 
 
 def main():
