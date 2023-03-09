@@ -36,7 +36,7 @@ toms_car = Car("Audi", "BLUE", 275)
 jims_car = Car("Audi", "BLUE", 275)
 
 # AttributeError: 'Car' object has no attribute '__brand'
-#print(toms_car.__brand)
+# print(toms_car.__brand)
 
 print(toms_car == jims_car)
 print(toms_car is jims_car)
